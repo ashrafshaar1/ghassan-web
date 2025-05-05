@@ -1,0 +1,402 @@
+/* ===== HEADER STYLES ===== */
+/* Mobile First Approach */
+
+/* Header Wrapper */
+.header-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../../public/uploads/photo-1556228453-efd6c1ff04f6.avif') no-repeat center center;
+  background-size: cover;
+  padding-top: 70px;
+  min-height: 70vh;
+  position: relative;
+}
+
+/* Top Bar - Base Styles */
+.top-bar {
+  background-color: transparent;
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.top-bar.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 6px 0;
+}
+
+.top-bar-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Mobile Header Row */
+.mobile-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 4px 0;
+  height: 44px;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  transition: all 0.3s ease;
+  display: flex;
+}
+
+.top-bar.scrolled .brand-logo {
+  height: 30px;
+}
+
+.brand-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.top-bar.scrolled .brand-name {
+  color: #222;
+  font-size: 16px;
+}
+
+/* Navigation */
+nav {
+  width: 100%;
+  margin: 8px 0;
+  order: 2;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 6px 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.3s;
+  padding: 3px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.top-bar.scrolled nav ul li a {
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #EFBF04;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #2e8b57;
+  transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Social Icons - Fixed Alignment */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.social-icon {
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar.scrolled .social-icon {
+  color: #000;
+}
+
+.social-icon:hover {
+  color: #EFBF04;
+  transform: translateY(-2px);
+}
+
+/* Header Content */
+.header-content {
+  text-align: center;
+  padding: 25px 20px;
+  color: white;
+  position: relative;
+  z-index: 2;
+  margin-top: 8px;
+}
+
+.header-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.header-content p {
+  font-size: 15px;
+  max-width: 100%;
+  margin: 0 auto 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+}
+
+/* Button Styles */
+.btn {
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.3s;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #EFBF04;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header-wrapper {
+    padding-top: 80px;
+  }
+  
+  .header-content h1 {
+    font-size: 38px;
+  }
+  
+  .header-content p {
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .brand-name {
+    font-size: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .brand-logo {
+    height: 36px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) - Fixed social icons alignment */
+@media (min-width: 768px) {
+  .top-bar-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-header-row {
+    width: auto;
+    flex: 1;
+    order: 1;
+    justify-content: flex-start;
+  }
+
+  nav {
+    margin: 0;
+    order: 2;
+    flex: 2;
+    text-align: center;
+  }
+
+  .social-icons {
+    order: 3;
+    flex: 1;
+    justify-content: flex-end;
+    padding-left: 20px;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .header-content {
+    padding: 60px 0 80px;
+  }
+
+  .header-content h1 {
+    font-size: 48px;
+  }
+
+  .header-content p {
+    font-size: 18px;
+    max-width: 80%;
+  }
+
+  .brand-name {
+    font-size: 22px;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
+  
+  .top-bar {
+    padding: 12px 0;
+  }
+  
+  .top-bar.scrolled {
+    padding: 10px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-content h1 {
+    font-size: 68px;
+  }
+
+  .header-content p {
+    font-size: 20px;
+    max-width: 700px;
+  }
+
+  .brand-name {
+    font-size: 26px;
+  }
+
+  nav ul {
+    gap: 25px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-content h1 {
+    font-size: 90px;
+  }
+
+  .header-content p {
+    font-size: 22px;
+    max-width: 800px;
+  }
+
+  .brand-name {
+    font-size: 30px;
+  }
+
+  nav ul {
+    gap: 35px;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+  }
+
+  .social-icon {
+    font-size: 22px;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+  .header-wrapper {
+    min-height: 120vh;
+    padding-top: 60px;
+  }
+
+  .header-content {
+    padding-top: 15px;
+  }
+
+  .header-content h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+
+  .header-content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .top-bar {
+    padding: 6px 0;
+  }
+}

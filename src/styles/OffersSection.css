@@ -1,0 +1,244 @@
+/* OFFERS SECTION */
+.offers-section {
+    background-color: #2c2c2c;
+    padding: 80px 20px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* CORNER DECORATIONS */
+  .corner-decoration {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #EFBF04;
+  }
+  
+  .corner-decoration.top-left {
+    top: 30px;
+    left: 30px;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 15px 0 0 0;
+  }
+  
+  .corner-decoration.bottom-right {
+    bottom: 30px;
+    right: 30px;
+    border-left: none;
+    border-top: none;
+    border-radius: 0 0 15px 0;
+  }
+  
+  /* SECTION HEADER */
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .section-header .subtitle {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .gold-line {
+    width: 100px;
+    height: 3px;
+    background: #EFBF04;
+    margin: 0 auto;
+  }
+  
+  /* OFFERS CONTAINER */
+  .offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  /* OFFER CARD */
+  .offer-card {
+    width: 350px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image-container {
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover .card-image {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2e8b57;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .view-details-btn {
+    background: #EFBF04;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .view-details-btn:hover {
+    background: #e0b206;
+  }
+  
+  /* MODAL STYLES */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+  }
+  
+  @keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .close-button:hover {
+    color: #333;
+  }
+  
+  .modal-image-container {
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .modal-text-content {
+    padding: 30px;
+  }
+  
+  .modal-text-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .modal-price {
+    font-weight: bold;
+    color: #2e8b57;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  
+  .modal-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .add-to-cart-btn {
+    background: #EFBF04;
+    color: #222;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #e0b206;
+  }
+  
+  /* RESPONSIVE STYLES */
+  @media (max-width: 768px) {
+    .offers-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .offer-card {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .modal-image-container {
+      height: 200px;
+    }
+  }
