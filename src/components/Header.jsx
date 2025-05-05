@@ -40,7 +40,7 @@ const Header = () => {
         <div className="top-bar-content">
           <div className="logo-container">
             <img 
-              src="../../uploads/logo.png" 
+              src="../assets/logo.png" 
               alt="GHASSAN FURNITURE Logo" 
               className="brand-logo" 
               onClick={(e) => {

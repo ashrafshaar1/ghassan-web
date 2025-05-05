@@ -3,7 +3,7 @@ export const indoorItems = [
     {
       title: "Modern Sofa",
       price: "$599.99",
-      image: "../../uploads/home/table.JPEG",
+      image: "./assets/home/table.JPEG",
       shortDescription: "Luxurious velvet sofa with wooden legs",
       description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
     },
