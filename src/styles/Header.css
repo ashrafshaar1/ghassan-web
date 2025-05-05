@@ -15,7 +15,7 @@
 .top-bar {
   background-color: transparent;
   padding: 8px 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -31,9 +31,7 @@
 .top-bar-content {
   display: flex;
   flex-direction: column;
-  width: 100%;
   padding: 0 15px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 

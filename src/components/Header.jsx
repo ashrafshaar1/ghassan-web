@@ -41,7 +41,7 @@ const Header = () => {
           <div className="logo-container">
             <img 
               src="../assets/logo.png" 
-              alt="GHASSAN FURNITURE Logo" 
+              alt="Logo" 
               className="brand-logo" 
               onClick={(e) => {
                 e.preventDefault();
