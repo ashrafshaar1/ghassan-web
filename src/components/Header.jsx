@@ -65,7 +65,7 @@ const Header = () => {
           <div className="mobile-header-row">
             <div className="logo-container">
               <img 
-                src="../../public/assets/logo.png"
+                src="../assets/logo.png"
                 alt="Logo" 
                 className="brand-logo" 
                 onClick={(e) => {
