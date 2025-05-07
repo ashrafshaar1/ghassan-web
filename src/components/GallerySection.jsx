@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft, faTimes } from '@fortawesome/free-solid-svg-icons';
 import '../styles/GallerySection.css';
@@ -8,20 +8,61 @@ const GallerySection = ({ title, description, items = [], id }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
+  const galleryScrollRef = useRef(null);
+  const isScrollingRef = useRef(false);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   const normalizeImagePath = (path) => {
     return path ? path.replace(/^\.\.\/\.\.\//, '/') : '';
   };
 
   const scrollToSection = (index) => {
-    const galleryScroll = document.getElementById(`${id}GalleryScroll`);
-    if (galleryScroll) {
-      const sectionWidth = galleryScroll.offsetWidth;
-      galleryScroll.scrollTo({
-        left: sectionWidth * index,
-        behavior: 'smooth'
-      });
-      setCurrentIndex(index);
+    if (!galleryScrollRef.current || isScrollingRef.current) return;
+    
+    isScrollingRef.current = true;
+    const sectionWidth = galleryScrollRef.current.offsetWidth;
+    galleryScrollRef.current.scrollTo({
+      left: sectionWidth * index,
+      behavior: 'smooth'
+    });
+    setCurrentIndex(index);
+    
+    setTimeout(() => {
+      isScrollingRef.current = false;
+    }, 500);
+  };
+
+  const handleScroll = () => {
+    if (!galleryScrollRef.current || isScrollingRef.current) return;
+    
+    const scrollLeft = galleryScrollRef.current.scrollLeft;
+    const sectionWidth = galleryScrollRef.current.offsetWidth;
+    const newIndex = Math.round(scrollLeft / sectionWidth);
+    
+    if (newIndex !== currentIndex) {
+      setCurrentIndex(newIndex);
+    }
+  };
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (Math.abs(touchStartX.current - touchEndX.current) > 50) {
+      if (touchStartX.current > touchEndX.current) {
+        // Swiped left
+        scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4));
+      } else {
+        // Swiped right
+        const newIndex = currentIndex === 0 ? Math.ceil(items.length / 4) - 1 : currentIndex - 1;
+        scrollToSection(newIndex);
+      }
     }
   };
 
@@ -60,6 +101,23 @@ const GallerySection = ({ title, description, items = [], id }) => {
   };
 
   useEffect(() => {
+    const galleryScroll = galleryScrollRef.current;
+    if (!galleryScroll) return;
+
+    galleryScroll.addEventListener('scroll', handleScroll);
+    galleryScroll.addEventListener('touchstart', handleTouchStart, { passive: true });
+    galleryScroll.addEventListener('touchmove', handleTouchMove, { passive: true });
+    galleryScroll.addEventListener('touchend', handleTouchEnd);
+
+    return () => {
+      galleryScroll.removeEventListener('scroll', handleScroll);
+      galleryScroll.removeEventListener('touchstart', handleTouchStart);
+      galleryScroll.removeEventListener('touchmove', handleTouchMove);
+      galleryScroll.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [currentIndex, items.length]);
+
+  useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape') closeModal();
       if (modalOpen) {
@@ -72,12 +130,10 @@ const GallerySection = ({ title, description, items = [], id }) => {
   }, [selectedItemIndex, items, modalOpen]);
 
   useEffect(() => {
-    if (items.length === 0) return;
+    if (items.length === 0 || modalOpen) return;
     const timer = setInterval(() => {
-      if (!modalOpen) {
-        const nextIndex = (currentIndex + 1) % Math.ceil(items.length / 4);
-        scrollToSection(nextIndex);
-      }
+      const nextIndex = (currentIndex + 1) % Math.ceil(items.length / 4);
+      scrollToSection(nextIndex);
     }, 5000);
     return () => clearInterval(timer);
   }, [currentIndex, items.length, modalOpen]);
@@ -94,7 +150,11 @@ const GallerySection = ({ title, description, items = [], id }) => {
       </div>
       
       <div className="gallery-container">
-        <div className="gallery-scroll" id={`${id}GalleryScroll`}>
+        <div 
+          className="gallery-scroll" 
+          id={`${id}GalleryScroll`}
+          ref={galleryScrollRef}
+        >
           {[...Array(Math.ceil(items.length / 4))].map((_, pageIndex) => (
             <div className="gallery-page" key={`page-${pageIndex}`}>
               {[...Array(2)].map((_, rowIndex) => (
@@ -140,6 +200,16 @@ const GallerySection = ({ title, description, items = [], id }) => {
           onClick={() => scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4))}
         >
           <FontAwesomeIcon icon={faChevronRight} size="lg" color="black" />
+        </div>
+
+        <div 
+          className="scroll-arrow left" 
+          onClick={() => {
+            const newIndex = currentIndex === 0 ? Math.ceil(items.length / 4) - 1 : currentIndex - 1;
+            scrollToSection(newIndex);
+          }}
+        >
+          <FontAwesomeIcon icon={faChevronLeft} size="lg" color="black" />
         </div>
         
         <div className="dots-container">

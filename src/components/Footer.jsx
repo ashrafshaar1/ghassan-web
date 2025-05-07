@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-left">
           <div className="footer-logo">
-            <img src="../../public/assets/logo.png" alt="GHASSAN FURNITURE Logo" className="brand-logo" />
+            <img src="../assets/logo.png" alt="GHASSAN FURNITURE Logo" className="brand-logo" />
             <div className="brand-name">GHASSAN FURNITURE</div>
           </div>
           <div className="footer-copyright">
