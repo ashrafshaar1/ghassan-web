@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main>
+      <div className="main-content">
         <GallerySection 
           id="indoor"
           title="INDOORS" 
@@ -35,7 +35,7 @@ function App() {
         />
         <OffersSection/>
         <ContactSection />
-      </main>
+      </div>
       <Footer />
     </div>
   );

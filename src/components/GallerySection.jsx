@@ -75,7 +75,7 @@ const GallerySection = ({ title, description, items = [], id }) => {
     if (items.length === 0) return;
     const timer = setInterval(() => {
       if (!modalOpen) {
-        const nextIndex = (currentIndex + 1) % Math.ceil(items.length / 8);
+        const nextIndex = (currentIndex + 1) % Math.ceil(items.length / 4);
         scrollToSection(nextIndex);
       }
     }, 5000);
@@ -95,12 +95,12 @@ const GallerySection = ({ title, description, items = [], id }) => {
       
       <div className="gallery-container">
         <div className="gallery-scroll" id={`${id}GalleryScroll`}>
-          {[...Array(Math.ceil(items.length / 8))].map((_, pageIndex) => (
+          {[...Array(Math.ceil(items.length / 4))].map((_, pageIndex) => (
             <div className="gallery-page" key={`page-${pageIndex}`}>
               {[...Array(2)].map((_, rowIndex) => (
                 <div className="gallery-row" key={`row-${rowIndex}`}>
-                  {items.slice(pageIndex * 8 + rowIndex * 4, pageIndex * 8 + (rowIndex + 1) * 4).map((item, itemIndex) => {
-                    const absoluteIndex = pageIndex * 8 + rowIndex * 4 + itemIndex;
+                  {items.slice(pageIndex * 4 + rowIndex * 2, pageIndex * 4 + (rowIndex + 1) * 2).map((item, itemIndex) => {
+                    const absoluteIndex = pageIndex * 4 + rowIndex * 2 + itemIndex;
                     const normalizedImage = normalizeImagePath(item.image);
                     return (
                       <div 
@@ -137,13 +137,13 @@ const GallerySection = ({ title, description, items = [], id }) => {
         
         <div 
           className="scroll-arrow right" 
-          onClick={() => scrollToSection((currentIndex + 1) % Math.ceil(items.length / 8))}
+          onClick={() => scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4))}
         >
           <FontAwesomeIcon icon={faChevronRight} size="lg" color="black" />
         </div>
         
         <div className="dots-container">
-          {[...Array(Math.ceil(items.length / 8))].map((_, index) => (
+          {[...Array(Math.ceil(items.length / 4))].map((_, index) => (
             <div 
               key={`dot-${index}`}
               className={`dot ${currentIndex === index ? 'active' : ''}`}

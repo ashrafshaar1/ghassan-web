@@ -16,16 +16,16 @@
   }
   
   .corner-decoration.top-left {
-    top: 30px;
-    left: 30px;
+    top: 80px;
+    left: 2px;
     border-right: none;
     border-bottom: none;
     border-radius: 15px 0 0 0;
   }
   
   .corner-decoration.bottom-right {
-    bottom: 30px;
-    right: 30px;
+    bottom: 61px;
+    right: 2px;
     border-left: none;
     border-top: none;
     border-radius: 0 0 15px 0;
@@ -45,6 +45,7 @@
   }
   
   .section-header .subtitle {
+    font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     color: #ddd;
     margin-bottom: 15px;
@@ -163,8 +164,8 @@
   
   .close-button {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 0px;
+    right: 0px;
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -229,7 +230,7 @@
   /* RESPONSIVE STYLES */
   @media (max-width: 768px) {
     .offers-container {
-      flex-direction: column;
+      flex-direction: square;
       align-items: center;
     }
     
@@ -239,6 +240,6 @@
     }
   
     .modal-image-container {
-      height: 200px;
+      height: 12px;
     }
   }

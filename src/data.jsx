@@ -11,7 +11,7 @@ export const indoorItems = [
     {
         title: "Modern Sofa",
         price: "$599.99",
-        image: "/uploads/sofa-1.jpg",
+        image: "./assets/IMG_0015.JPEG",
         shortDescription: "Luxurious velvet sofa with wooden legs",
         description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
       },
@@ -36,6 +36,86 @@ export const indoorItems = [
         title: "Modern Sofa",
         price: "$599.99",
         image: "../../uploads/sofa.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
+        shortDescription: "Luxurious velvet sofa with wooden legs",
+        description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      },
+
+      {
+        title: "Modern Sofa",
+        price: "$599.99",
+        image: "/uploads/sofa-1.jpg",
         shortDescription: "Luxurious velvet sofa with wooden legs",
         description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
       },
