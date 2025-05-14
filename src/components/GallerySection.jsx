@@ -56,10 +56,8 @@ const GallerySection = ({ title, description, items = [], id }) => {
   const handleTouchEnd = () => {
     if (Math.abs(touchStartX.current - touchEndX.current) > 50) {
       if (touchStartX.current > touchEndX.current) {
-        // Swiped left
         scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4));
       } else {
-        // Swiped right
         const newIndex = currentIndex === 0 ? Math.ceil(items.length / 4) - 1 : currentIndex - 1;
         scrollToSection(newIndex);
       }
@@ -134,7 +132,7 @@ const GallerySection = ({ title, description, items = [], id }) => {
     const timer = setInterval(() => {
       const nextIndex = (currentIndex + 1) % Math.ceil(items.length / 4);
       scrollToSection(nextIndex);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(timer);
   }, [currentIndex, items.length, modalOpen]);
 
@@ -197,14 +195,18 @@ const GallerySection = ({ title, description, items = [], id }) => {
         
         <div 
           className="scroll-arrow right" 
-          onClick={() => scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4))}
+          onClick={(e) => {
+            e.stopPropagation();
+            scrollToSection((currentIndex + 1) % Math.ceil(items.length / 4));
+          }}
         >
           <FontAwesomeIcon icon={faChevronRight} size="lg" color="black" />
         </div>
 
         <div 
           className="scroll-arrow left" 
-          onClick={() => {
+          onClick={(e) => {
+            e.stopPropagation();
             const newIndex = currentIndex === 0 ? Math.ceil(items.length / 4) - 1 : currentIndex - 1;
             scrollToSection(newIndex);
           }}
@@ -217,7 +219,10 @@ const GallerySection = ({ title, description, items = [], id }) => {
             <div 
               key={`dot-${index}`}
               className={`dot ${currentIndex === index ? 'active' : ''}`}
-              onClick={() => scrollToSection(index)}
+              onClick={(e) => {
+                e.stopPropagation();
+                scrollToSection(index);
+              }}
             ></div>
           ))}
         </div>
