@@ -25,7 +25,7 @@ const OffersSection = () => {
       title: "Booming Bundle",
       price: "399$ (Was 715$)",
       image: "../assets/Offers/offer 3.JPEG",
-      description: "4-seats outdoor ratin dining set with a glass top table and costumisable fabric color, Single seats outdoor swing, Wicker roking chair, 6 Ratin chairs and a foldable table."
+      description: "4-seats outdoor ratin dining set with a table and costumisable fabric color, Single seats outdoor swing, Wicker roking chair, 6 Ratin chairs and a foldable table."
     }
   ];
 
