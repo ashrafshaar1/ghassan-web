@@ -8,24 +8,24 @@ const OffersSection = () => {
   const offers = [
     {
       id: 1,
-      title: "Luxury Sofa Set",
-      price: "$999.99 (Was $1299.99)",
-      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      description: "Premium 3-piece sofa set with top-grain leather and high-density foam cushions. Includes 3-seater sofa and two armchairs. Limited stock available."
+      title: "Luxury Set",
+      price: "1999$ (Was 2450$)",
+      image: "../assets/Offers/offer 1.JPEG",
+      description: "Master bedroom with a drossoire and a commode, Salon, dining table with 6 chairs."
     },
     {
       id: 2,
-      title: "Dining Table Package",
-      price: "$799.99 (Was $1099.99)",
-      image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      description: "6-piece dining set with extendable solid oak table (60\" to 84\") and 6 upholstered chairs. Includes free delivery and assembly."
+      title: "Classy Package",
+      price: "999$ (Was 1380$)",
+      image: "../assets/Offers/offer 2.JPEG",
+      description: "Bedroom with drossoire and a closet, Living room, Table set, Center table and Mattress."
     },
     {
       id: 3,
-      title: "Bedroom Bundle",
-      price: "$1499.99 (Was $1999.99)",
-      image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      description: "Complete bedroom set with king-size bed frame, two nightstands, and dresser. Solid wood construction with hand-rubbed finish."
+      title: "Booming Bundle",
+      price: "399$ (Was 715$)",
+      image: "../assets/Offers/offer 3.JPEG",
+      description: "4-seats outdoor ratin dining set with a glass top table and costumisable fabric color, Single seats outdoor swing, Wicker roking chair, 6 Ratin chairs and a foldable table."
     }
   ];
 
