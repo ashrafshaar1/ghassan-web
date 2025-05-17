@@ -1,275 +1,276 @@
 // src/data.js
 export const indoorItems = [
     {
-      title: "BIG TABLE SET",
-      price: "240$",
+      title: "Grey Salon",
+      price: "950$",
       image: "./assets/indoor/salon 1.JPG",
-      shortDescription: "Luxurious 4 tables set",
-      description: "Luxurious 4 tables set, Granite texture, can be bought separately 3 small table set or 1 big table for 120$ each"
+      shortDescription: "7-seats Luxurious wooden grey salon",
+      description: "7-seats Luxurious wooden grey salon, 1-200cm Length big sofa, 1-160cm Length medium sofa, 2-70cmX70cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Blue Corner Salon",
+      price: "350$",
       image: "./assets/indoor/salon 2.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Blue corner salon",
+      description: "Luxurious Blue corner salon, 1-270cmX270cm Length Corner sofa, 1-160cm Length medium sofa"
+
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey and Gold Corner Salon",
+      price: "850$",
       image: "./assets/indoor/salon 3.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey corner salon",
+      description: "Luxurious Grey corner salon, 1-280cmX280cm Length Corner sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Black Corner Salon",
+      price: "350$",
       image: "./assets/indoor/salon 4.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey corner salo",
+      description: "Luxurious Black corner salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Corner Salon",
+      price: "650$",
       image: "./assets/indoor/salon 5.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey corner salon",
+      description: "Luxurious Grey corner salon, 1-270cmX270cm Length Corner sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Corner Salon",
+      price: "550$",
       image: "./assets/indoor/salon 6.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey corner salon",
+      description: "Luxurious Grey corner salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Brown and Beige Salon",
+      price: "850$",
       image: "./assets/indoor/salon 7.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-       description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "8-seats Luxurious Brown and Beige Salon",
+       description: "8-seats Luxurious Brown and Beige Salon, 2-220cm Length big sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Salon",
+      price: "850$",
       image: "./assets/indoor/salon 8.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious grey salon",
+      description: "7-seats Luxurious grey salon, 1-220cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Blue and white salon",
+      price: "850$",
       image: "./assets/indoor/salon 9.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Blue and white salon",
+      description: "7-seats Luxurious Blue and white salon, 1-220cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "White Salon",
+      price: "800$",
       image: "./assets/indoor/salon 10.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious White corner salon",
+      description: "Luxurious White corner salon, 1-270cmX270cm Length Corner sofa, 2-80cmX80cm Length small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Brown Salon",
+      price: "750$",
       image: "./assets/indoor/salon 11.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "8-seats Luxurious Brown Salon",
+      description: "8-seats Luxurious Brown Salon, 2-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Salon",
+      price: "650$",
       image: "./assets/indoor/salon 12.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Grey Salon",
+      description: "7-seats Luxurious Grey Salon, 1-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Beige Salon",
+      price: "500$",
       image: "./assets/indoor/salon 13.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Beige Salon",
+      description: "7-seats Luxurious Beige Salon, 1-180cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Steel Salon",
+      price: "1500$",
       image: "./assets/indoor/salon 14.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Steel Salon",
+      description: "7-seats Luxurious Steel Salon, 1-220cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Dark Blue Corner Salon",
+      price: "750$",
       image: "./assets/indoor/salon 15.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Dark Blue Corner Salon",
+      description: "Luxurious Dark Blue Corner Salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Brown Corner Salon",
+      price: "350$",
       image: "./assets/indoor/salon 16.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Brown Corner Salon",
+      description: "Luxurious Brown Corner Salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Dark Grey Corner Salon",
+      price: "900$",
       image: "./assets/indoor/salon 17.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Dark Grey Corner Salon",
+      description: "Luxurious Dark Grey Corner Salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Havan Corner `Salon",
+      price: "900$",
       image: "./assets/indoor/salon 18.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Havan Corner Salon",
+      description: "Luxurious Havan Corner Salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Petroleum Salon",
+      price: "850$",
       image: "./assets/indoor/salon 19.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Petroleum Salon",
+      description: "7-seats Luxurious Petroleum Salon, 1-180cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Beige Salon",
+      price: "700$",
       image: "./assets/indoor/salon 20.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "7-seats Luxurious Beige Salon",
+      description: "7-seats Luxurious Beige Salon, 1-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Baby Bedroom",
+      price: "400$",
       image: "./assets/indoor/baby bedroom.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Baby Bedroom",
+      description: "Baby Bedroom, 1-Bed, 1-Closet, 1-Dresser"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Master Bedroom",
+      price: "650$",
       image: "./assets/indoor/bedroom 1.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey Master Bedroom",
+      description: "Luxurious Grey Master Bedroom, 1-200cmX170cm Bed, 1-240cmX220cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Beige Master Bedroom",
+      price: "750$",
       image: "./assets/indoor/bedroom 2.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Beige Master Bedroom",
+      description: "Luxurious Beige Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Twin Single-Beds Bedroom",
+      price: "850$",
       image: "./assets/indoor/bedroom 3.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Twin Single-Beds Bedroom",
+      description: "Luxurious Twin Single-Beds Bedroom, 2-200cmX120cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Shoe Closet",
+      price: "110$",
       image: "./assets/indoor/closet 1.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Shoe Closet",
+      description: "Shoe ClosetShoe Closet, 1-120cmX30cm Shoe Closet, Available in 3 colors"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Kitchen Closet",
+      price: "125$",
       image: "./assets/indoor/closet 2.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Kitchen Closet",
+      description: "Kitchen Closet, 1-200cmX70cm Kitchen Closet"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Kitchen Closet",
+      price: "150$",
       image: "./assets/indoor/closet 3.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Kitchen Closet",
+      description: "Kitchen Closet, 1-200cmX80cm Kitchen Closet"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Kitchen Closet",
+      price: "225$",
       image: "./assets/indoor/closet 4.JPEG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Kitchen Closet",
+      description: "Kitchen Closet, 1-200cmX140cm Kitchen Closet"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Kitchen Closet",
+      price: "175$",
       image: "./assets/indoor/closet 5.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Kitchen Closet",
+      description: "Kitchen Closet, 1-200cmX105cm Kitchen Closet"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Grey Sofabed",
+      price: "120$",
       image: "./assets/indoor/sofa 1.JPG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Grey Sofabed",
+      description: "Grey Sofabed, 1-175cm Lenghth Sofabed"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Single Purple Sofa",
+      price: "150$",
       image: "./assets/indoor/sofa 2.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Single Purple Sofa",
+      description: "Luxurious Single Purple Sofa, 1-160cmX80cm Sofa"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Dining Table",
+      price: "140$",
       image: "./assets/indoor/table 1.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Dining Table with four chairs",
+      description: "Dining Table with four chairs, Customisable fabric color"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Dining Table",
+      price: "225$",
       image: "./assets/indoor/table 2.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Dining Table with six chairs",
+      description: "Dining Table with six chairs, Elongating Colis, Customisable fabric color"
     },
 
     {
-      title: "Modern Sofa",
-      price: "$599.99",
+      title: "Dining Table",
+      price: "300$",
       image: "./assets/indoor/table 3.PNG",
-      shortDescription: "Luxurious velvet sofa with wooden legs",
-      description: "Luxurious velvet sofa with wooden legs. Handcrafted with premium materials..."
+      shortDescription: "Luxurious Dining Table with six chairs",
+      description: "Luxurious Dining Table with six chairs, Customisable fabric color"
     },
     // Add more indoor items...
 
@@ -281,7 +282,7 @@ export const indoorItems = [
       price: "300$",
       image: "./assets/outdoor/garden sofa.JPG",
       shortDescription: "7-seats outdoor dining set.",
-      description: "7-seats outdoor dining set with a glass top table. Costumisable fabric color."
+      description: "7-seats outdoor dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -297,7 +298,7 @@ export const indoorItems = [
         price: "300$",
         image: "./assets/outdoor/garden sofa 2.JPG",
         shortDescription: "4-piece outdoor dining set.",
-        description: "4-seats outdoor dining set with a glass top table. Costumisable fabric color."
+        description: "4-seats outdoor dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -305,7 +306,7 @@ export const indoorItems = [
         price: "325$",
         image: "./assets/outdoor/garden sofa 3.JPG",
         shortDescription: "4-piece outdoor dining set.",
-        description: "4-seats outdoor dining set with a wood top table. Costumisable fabric color."
+        description: "4-seats outdoor dining set with a wood top table. Customisable fabric color."
     },
 
     {
@@ -313,7 +314,7 @@ export const indoorItems = [
         price: "340$",
         image: "./assets/outdoor/garden sofa w.JPG",
         shortDescription: "5-piece outdoor dining set.",
-        description: "5-seats outdoor dining set, wood covered hands and wood top table. Costumisable fabric color"
+        description: "5-seats outdoor dining set, wood covered hands and wood top table. Customisable fabric color"
     },
 
     {
@@ -321,7 +322,7 @@ export const indoorItems = [
         price: "420$",
         image: "./assets/outdoor/garden sofa w1.JPG",
         shortDescription: "7-piece outdoor dining set.",
-        description: "7-seats outdoor dining set, wood covered hands and glass top table. Costumisable fabric color"
+        description: "7-seats outdoor dining set, wood covered hands and glass top table. Customisable fabric color"
     },
 
     {
@@ -329,7 +330,7 @@ export const indoorItems = [
         price: "150$",
         image: "./assets/outdoor/garden bench.JPG",
         shortDescription: "3-seats garden bench.",
-        description: "3-seats garden bench, available in three colors (BROWN/GREY/WHITE). Costumisable fabric color"
+        description: "3-seats garden bench, available in three colors (BROWN/GREY/WHITE). Customisable fabric color"
     },
 
     {
@@ -345,7 +346,7 @@ export const indoorItems = [
         price: "380$",
         image: "./assets/outdoor/ratin.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
-        description: "4-seats outdoor ratin dining set with a glass top table. Costumisable fabric color."
+        description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -353,7 +354,7 @@ export const indoorItems = [
         price: "350$",
         image: "./assets/outdoor/ratin 1.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
-        description: "4-seats outdoor ratin dining set with a glass top table. Costumisable fabric color."
+        description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -361,7 +362,7 @@ export const indoorItems = [
         price: "170$",
         image: "./assets/outdoor/ratin 2.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
-        description: "4-seats outdoor ratin dining set with a glass top table. Costumisable fabric color."
+        description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -369,7 +370,7 @@ export const indoorItems = [
         price: "170$",
         image: "./assets/outdoor/ratin 3.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
-        description: "4-seats outdoor ratin dining set with a glass top table. Costumisable fabric color."
+        description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
     },
 
     {
@@ -377,7 +378,7 @@ export const indoorItems = [
         price: "200$",
         image: "./assets/outdoor/resin.JPG",
         shortDescription: "7-seats outdoor resin dining set.",
-        description: "7-seats outdoor resin dining set with a table. Costumisable fabric color."
+        description: "7-seats outdoor resin dining set with a table. Customisable fabric color."
     },
 
     {
@@ -385,7 +386,7 @@ export const indoorItems = [
         price: "160$",
         image: "./assets/outdoor/resin 1.JPG",
         shortDescription: "7-seats outdoor resin dining set.",
-        description: "4-seats outdoor resin dining set with a table. Costumisable fabric color."
+        description: "4-seats outdoor resin dining set with a table. Customisable fabric color."
     },
 
     {
@@ -401,7 +402,7 @@ export const indoorItems = [
         price: "95$",
         image: "./assets/outdoor/wicker 2.JPG",
         shortDescription: "Wicker roking chair.",
-        description: "Wicker roking chair. Costumisable fabric color."
+        description: "Wicker roking chair. Customisable fabric color."
     },
 
     {
@@ -409,7 +410,7 @@ export const indoorItems = [
         price: "150$",
         image: "./assets/outdoor/swing.JPG",
         shortDescription: "3-seats outdoor swing.",
-        description: "3-seats outdoor swing. Costumisable fabric color."
+        description: "3-seats outdoor swing. Customisable fabric color."
     },
 
     {
@@ -417,7 +418,7 @@ export const indoorItems = [
         price: "280$",
         image: "./assets/outdoor/swing 1.JPG",
         shortDescription: "2-seats outdoor swing.",
-        description: "2-seats outdoor swing. Costumisable fabric color."
+        description: "2-seats outdoor swing. Customisable fabric color."
     },
 
     {
@@ -425,7 +426,7 @@ export const indoorItems = [
         price: "290$",
         image: "./assets/outdoor/swing 2.JPEG",
         shortDescription: "2-seats outdoor swing.",
-        description: "2-seats outdoor swing. Costumisable fabric color."
+        description: "2-seats outdoor swing. Customisable fabric color."
     },
 
     {
@@ -433,7 +434,7 @@ export const indoorItems = [
         price: "105$",
         image: "./assets/outdoor/swing 3.JPEG",
         shortDescription: "Single seats outdoor swing.",
-        description: "Single seat outdoor swing. Costumisable fabric color."
+        description: "Single seat outdoor swing. Customisable fabric color."
     },
 
     {
@@ -441,7 +442,7 @@ export const indoorItems = [
         price: "175$",
         image: "./assets/outdoor/swing 4.JPEG",
         shortDescription: "Single seats outdoor swing.",
-        description: "Single seat outdoor swing. Costumisable fabric color."
+        description: "Single seat outdoor swing. Customisable fabric color."
     },
 
     {
@@ -449,7 +450,7 @@ export const indoorItems = [
         price: "50$",
         image: "./assets/outdoor/tent.PNG",
         shortDescription: "TENT",
-        description: "300cm x 300cm tent. Costumisable fabric color."
+        description: "300cm x 300cm tent. Customisable fabric color."
     },
 
     {
@@ -597,7 +598,7 @@ export const indoorItems = [
         price: "150$",
         image: "./assets/accessories/BENCH.JPG",
         shortDescription: "Confortable bench.",
-        description: "Confortable bench with a unique curved style, costumisable fabric color. Availble in three colors (GOLD/CHROME/BLACK)"
+        description: "Confortable bench with a unique curved style, Customisable fabric color. Availble in three colors (GOLD/CHROME/BLACK)"
     },
 
     {
