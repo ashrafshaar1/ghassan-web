@@ -10,7 +10,7 @@ export const indoorItems = [
 
     {
       title: "Blue Corner Salon",
-      price: "350$",
+      price: "900$",
       image: "./assets/indoor/salon 2.JPEG",
       shortDescription: "Luxurious Blue corner salon",
       description: "Luxurious Blue corner salon, 1-270cmX270cm Length Corner sofa, 1-160cm Length medium sofa"
@@ -43,7 +43,7 @@ export const indoorItems = [
 
     {
       title: "Grey Corner Salon",
-      price: "550$",
+      price: "650$",
       image: "./assets/indoor/salon 6.JPG",
       shortDescription: "Luxurious Grey corner salon",
       description: "Luxurious Grey corner salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
@@ -53,8 +53,8 @@ export const indoorItems = [
       title: "Brown and Beige Salon",
       price: "850$",
       image: "./assets/indoor/salon 7.JPG",
-      shortDescription: "8-seats Luxurious Brown and Beige Salon",
-       description: "8-seats Luxurious Brown and Beige Salon, 2-220cm Length big sofa, 2-80cmX80cm  small sofa"
+      shortDescription: "7-seats Luxurious Brown and Beige Salon",
+       description: "7-seats Luxurious Brown and Beige Salon, 1-220cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
@@ -85,8 +85,8 @@ export const indoorItems = [
       title: "Brown Salon",
       price: "750$",
       image: "./assets/indoor/salon 11.JPEG",
-      shortDescription: "8-seats Luxurious Brown Salon",
-      description: "8-seats Luxurious Brown Salon, 2-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
+      shortDescription: "10-seats Luxurious Brown Salon",
+      description: "10-seats Luxurious Brown Salon, 2-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
     },
 
     {
@@ -131,7 +131,7 @@ export const indoorItems = [
 
     {
       title: "Dark Grey Corner Salon",
-      price: "900$",
+      price: "350$",
       image: "./assets/indoor/salon 17.JPEG",
       shortDescription: "Luxurious Dark Grey Corner Salon",
       description: "Luxurious Dark Grey Corner Salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
@@ -166,7 +166,7 @@ export const indoorItems = [
       price: "400$",
       image: "./assets/indoor/baby bedroom.PNG",
       shortDescription: "Baby Bedroom",
-      description: "Baby Bedroom, 1-Bed, 1-Closet, 1-Dresser"
+      description: "Baby Bedroom, 1-Bed, 1-Closet, 1-Dresser, Net, Cover, Bedding , Pillow, Cusion, Braided Fabric"
     },
 
     {
@@ -198,7 +198,7 @@ export const indoorItems = [
       price: "110$",
       image: "./assets/indoor/closet 1.JPEG",
       shortDescription: "Shoe Closet",
-      description: "Shoe ClosetShoe Closet, 1-120cmX30cm Shoe Closet, Available in 3 colors"
+      description: "Shoe ClosetShoe, 1-120cmX30cm Shoe Closet, Available in 3 colors"
     },
 
     {
@@ -267,7 +267,7 @@ export const indoorItems = [
 
     {
       title: "Dining Table",
-      price: "300$",
+      price: "225$",
       image: "./assets/indoor/table 3.PNG",
       shortDescription: "Luxurious Dining Table with six chairs",
       description: "Luxurious Dining Table with six chairs, Customisable fabric color"
@@ -279,7 +279,7 @@ export const indoorItems = [
   export const outdoorItems = [
     {
       title: "GARDEN SOFA SET 1",
-      price: "300$",
+      price: "200$",
       image: "./assets/outdoor/garden sofa.JPG",
       shortDescription: "7-seats outdoor dining set.",
       description: "7-seats outdoor dining set with a glass top table. Customisable fabric color."
@@ -354,12 +354,12 @@ export const indoorItems = [
         price: "350$",
         image: "./assets/outdoor/ratin 1.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
-        description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
+        description: "4-seats outdoor ratin dining set with a glass top table, 7 resin colors. Customisable fabric color."
     },
 
     {
         title: "RATIN SET 3",
-        price: "170$",
+        price: "350$",
         image: "./assets/outdoor/ratin 2.JPG",
         shortDescription: "4-seats outdoor ratin dining set.",
         description: "4-seats outdoor ratin dining set with a glass top table. Customisable fabric color."
@@ -417,8 +417,8 @@ export const indoorItems = [
         title: "SWING 2",
         price: "280$",
         image: "./assets/outdoor/swing 1.JPG",
-        shortDescription: "2-seats outdoor swing.",
-        description: "2-seats outdoor swing. Customisable fabric color."
+        shortDescription: "3-seats outdoor swing.",
+        description: "3-seats outdoor swing. Customisable fabric color."
     },
 
     {
@@ -441,7 +441,7 @@ export const indoorItems = [
         title: "SWING 5",
         price: "175$",
         image: "./assets/outdoor/swing 4.JPEG",
-        shortDescription: "Single seats outdoor swing.",
+        shortDescription: "Single seat outdoor swing.",
         description: "Single seat outdoor swing. Customisable fabric color."
     },
 
@@ -458,7 +458,7 @@ export const indoorItems = [
         price: "7$/10$/12$/15$ 1 m^2",
         image: "./assets/outdoor/gazon.JPG",
         shortDescription: "Artificial lawn.",
-        description: "Artificial gazon. 2cm thikness 7$, 3cm thikness 10$, 4cm thikness 12$, 5cm thikness 15$."
+        description: "Artificial gazon. 2cm thickness 7$, 3cm thickness 10$, 4cm thickness 12$, 5cm thickness 15$."
     },
 
     // Add more outdoor items...
