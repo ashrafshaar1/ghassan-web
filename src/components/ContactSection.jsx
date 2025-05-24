@@ -23,11 +23,11 @@ const ContactSection = () => {
           <div className="contact-details">
             <div className="contact-item">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-              <p>123 Furniture Street, Beirut, Lebanon</p>
+              <p>Quabrshmoun, Basatin Road, Mount lebanon, Lebanon</p>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faPhone} className="contact-icon" />
-              <p>+961 1 123 456</p>
+              <p>+961 3 986 878</p>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
@@ -42,11 +42,7 @@ const ContactSection = () => {
           <div className="contact-details">
             <div className="contact-item">
               <FontAwesomeIcon icon={faClock} className="contact-icon" />
-              <p>Monday - Friday 9:00 AM - 6:00 PM</p>
-            </div>
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faClock} className="contact-icon" />
-              <p>Saturday 10:00 AM - 5:00 PM</p>
+              <p>Monday - Saturday 9:00 AM - 7:00 PM</p>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faClock} className="contact-icon" />

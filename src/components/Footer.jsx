@@ -22,16 +22,16 @@ const Footer = () => {
           <p>&copy; <span>{currentYear}</span> GHASSAN FURNITURE. All Rights Reserved.</p>
         </div>
         <div className="footer-social">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/ghassanfurniture" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="social-icon" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/ghassanfurniture1" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebookF} className="social-icon" />
           </a>
-          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://tiktok.com/@ghassan.furniture" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTiktok} className="social-icon" />
           </a>
-          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/9613986878" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
           </a>
         </div>
