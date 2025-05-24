@@ -27,7 +27,7 @@ export const indoorItems = [
 
     {
       title: "Black Corner Salon",
-      price: "350$",
+      price: "900$",
       image: "./assets/indoor/salon 4.JPEG",
       shortDescription: "Luxurious Grey corner salo",
       description: "Luxurious Black corner salon, 1-280cmX280cm Length Corner sofa, 1-160cm Length medium sofa"
@@ -130,7 +130,7 @@ export const indoorItems = [
     },
 
     {
-      title: "Dark Grey Corner Salon",
+      title: "Black Corner Salon",
       price: "350$",
       image: "./assets/indoor/salon 17.JPEG",
       shortDescription: "Luxurious Dark Grey Corner Salon",
@@ -279,7 +279,7 @@ export const indoorItems = [
   export const outdoorItems = [
     {
       title: "GARDEN SOFA SET 1",
-      price: "200$",
+      price: "300$",
       image: "./assets/outdoor/garden sofa.JPG",
       shortDescription: "7-seats outdoor dining set.",
       description: "7-seats outdoor dining set with a glass top table. Customisable fabric color."
@@ -287,7 +287,7 @@ export const indoorItems = [
 
     {
         title: "GARDEN SOFA SET 2",
-        price: "300$",
+        price: "200$",
         image: "./assets/outdoor/garden sofa 1.JPG",
         shortDescription: "7-seats outdoor dining set.",
         description: "7-seats outdoor dining set. Available in 1 color."
@@ -295,14 +295,6 @@ export const indoorItems = [
 
     {
         title: "GARDEN SOFA SET 3",
-        price: "300$",
-        image: "./assets/outdoor/garden sofa 2.JPG",
-        shortDescription: "4-piece outdoor dining set.",
-        description: "4-seats outdoor dining set with a glass top table. Customisable fabric color."
-    },
-
-    {
-        title: "GARDEN SOFA SET 4",
         price: "325$",
         image: "./assets/outdoor/garden sofa 3.JPG",
         shortDescription: "4-piece outdoor dining set.",
@@ -310,7 +302,7 @@ export const indoorItems = [
     },
 
     {
-        title: "GARDEN SOFA SET 5",
+        title: "GARDEN SOFA SET 4",
         price: "340$",
         image: "./assets/outdoor/garden sofa w.JPG",
         shortDescription: "5-piece outdoor dining set.",
@@ -318,7 +310,7 @@ export const indoorItems = [
     },
 
     {
-        title: "GARDEN SOFA SET 6",
+        title: "GARDEN SOFA SET 5",
         price: "420$",
         image: "./assets/outdoor/garden sofa w1.JPG",
         shortDescription: "7-piece outdoor dining set.",
@@ -375,7 +367,7 @@ export const indoorItems = [
 
     {
         title: "RESIN SET 1",
-        price: "200$",
+        price: "220$",
         image: "./assets/outdoor/resin.JPG",
         shortDescription: "7-seats outdoor resin dining set.",
         description: "7-seats outdoor resin dining set with a table. Customisable fabric color."
@@ -383,7 +375,7 @@ export const indoorItems = [
 
     {
         title: "RESIN SET 2",
-        price: "160$",
+        price: "180$",
         image: "./assets/outdoor/resin 1.JPG",
         shortDescription: "7-seats outdoor resin dining set.",
         description: "4-seats outdoor resin dining set with a table. Customisable fabric color."
@@ -447,7 +439,7 @@ export const indoorItems = [
 
     {
         title: "TENT",
-        price: "50$",
+        price: "55$",
         image: "./assets/outdoor/tent.PNG",
         shortDescription: "TENT",
         description: "300cm x 300cm tent. Customisable fabric color."
@@ -455,10 +447,10 @@ export const indoorItems = [
 
     {
         title: "ARTIFICIAL LAWN",
-        price: "7$/10$/12$/15$ 1 m^2",
+        price: "5$/6.5$/9$ m^2",
         image: "./assets/outdoor/gazon.JPG",
         shortDescription: "Artificial lawn.",
-        description: "Artificial gazon. 2cm thickness 7$, 3cm thickness 10$, 4cm thickness 12$, 5cm thickness 15$."
+        description: "Artificial gazon. 1cm thickness 5$, 2cm thickness 6.5$, 4cm thickness 9$."
     },
 
     // Add more outdoor items...
