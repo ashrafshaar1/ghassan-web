@@ -192,16 +192,16 @@ const Header = () => {
               </ul>
             </nav>
             <div className="mobile-social-icons">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/ghassanfurniture" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className="mobile-social-icon" />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://facebook.com/ghassanfurniture1" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebookF} className="mobile-social-icon" />
               </a>
-              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://tiktok.com/@ghassan.furniture" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTiktok} className="mobile-social-icon" />
               </a>
-              <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/9613986878" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faWhatsapp} className="mobile-social-icon" />
               </a>
             </div>
