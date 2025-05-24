@@ -31,7 +31,7 @@ const ContactSection = () => {
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
-              <p>info@ghassanfurniture.com</p>
+              <p>gbouhassan@gmail.com</p>
             </div>
           </div>
         </div>
