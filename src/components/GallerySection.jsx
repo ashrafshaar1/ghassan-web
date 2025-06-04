@@ -170,6 +170,7 @@ const GallerySection = ({ title, description, items = [], id }) => {
                           {normalizedImage && (
                             <img 
                               src={normalizedImage} 
+                              loading='lazy'
                               alt={item.title || 'Gallery item'} 
                               className="item-image"
                               onError={(e) => {

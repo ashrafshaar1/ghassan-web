@@ -23,7 +23,7 @@ const ContactSection = () => {
           <div className="contact-details">
             <div className="contact-item">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-              <p>Quabrshmoun, Basatin Road, Mount lebanon, Lebanon</p>
+              <p>Qabreshmoun, Basatin Road, Mount lebanon, Lebanon</p>
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faPhone} className="contact-icon" />
