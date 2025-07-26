@@ -66,14 +66,6 @@ export const indoorItems = [
     },
 
     {
-      title: "Blue and white salon",
-      price: "850$",
-      image: "./assets/indoor/salon 9.PNG",
-      shortDescription: "7-seats Luxurious Blue and white salon",
-      description: "7-seats Luxurious Blue and white salon, 1-220cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
-    },
-
-    {
       title: "White Salon",
       price: "800$",
       image: "./assets/indoor/salon 10.PNG",
@@ -162,6 +154,46 @@ export const indoorItems = [
     },
 
     {
+      title: "Beige Corner `Salon",
+      price: "750$",
+      image: "./assets/indoor/salon 21.PNG",
+      shortDescription: "Luxurious Beige Salon",
+      description: "Luxurious Beige Salon, 1-280cmX280cm Length Corner sofa"
+    },
+
+    {
+      title: "Beige Salon",
+      price: "750$",
+      image: "./assets/indoor/salon 22.PNG",
+      shortDescription: " 7-seat Luxurious Beige Salon",
+      description: "7-seat Luxurious Beige Salon, 1-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
+    },
+
+    {
+      title: "Aqua Blue Salon",
+      price: "1600$",
+      image: "./assets/indoor/salon 23.PNG",
+      shortDescription: " 7-seat Luxurious Beige Salon",
+      description: "7-seat Luxurious Beige Salon, 1-200cm Length big sofa, 1-160cm Length medium sofa, 2-80cmX80cm  small sofa"
+    },
+
+    {
+      title: "Yellow and White Salon",
+      price: "1050$",
+      image: "./assets/indoor/salon 24.PNG",
+      shortDescription: "Luxurious Beige Salon",
+      description: "Luxurious Beige Salon, 3-200cm Length big sofa"
+    },
+
+    {
+      title: "Beige Corner `Salon",
+      price: "650$",
+      image: "./assets/indoor/salon 25.JPEG",
+      shortDescription: "Luxurious Beige Salon",
+      description: "Luxurious Beige Salon"
+    },
+
+    {
       title: "Baby Bedroom",
       price: "400$",
       image: "./assets/indoor/baby bedroom.PNG",
@@ -186,6 +218,62 @@ export const indoorItems = [
     },
 
     {
+      title: "Brown Master Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 4.PNG",
+      shortDescription: "Luxurious Brown Master Bedroom",
+      description: "Luxurious Brown Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Black and White Master Bedroom",
+      price: "1100$",
+      image: "./assets/indoor/bedroom 5.PNG",
+      shortDescription: "Luxurious Black and White Master Bedroom",
+      description: "Luxurious Black and White Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Dark Brown Master Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 7.PNG",
+      shortDescription: "Luxurious Dark Brown Master Bedroom",
+      description: "Luxurious Dark Brown Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Grey Master Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 8.PNG",
+      shortDescription: "Luxurious Grey Master Bedroom",
+      description: "Luxurious Grey Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Dark Blue Master Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 9.PNG",
+      shortDescription: "Luxurious Dark Blue Master Bedroom",
+      description: "Luxurious Dark Brown Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Beige Master Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 10.PNG",
+      shortDescription: "Luxurious Beige Master Bedroom",
+      description: "Luxurious Beige Master Bedroom, 1-200cmX170cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
+      title: "Twin Single-Beds Beige Bedroom",
+      price: "1000$",
+      image: "./assets/indoor/bedroom 6.PNG",
+      shortDescription: "Luxurious Twin Single-Beds Black and White Master Bedroom",
+      description: "Luxurious Twin Single-Beds Black and White Bedroom, 2-200cmX120cm Bed, 1-200cmX200cm Closet, 1-100cm Dressing Table, 2-40cmX40cm Bedside Drawers"
+    },
+
+    {
       title: "Twin Single-Beds Bedroom",
       price: "850$",
       image: "./assets/indoor/bedroom 3.PNG",
@@ -194,11 +282,43 @@ export const indoorItems = [
     },
 
     {
+      title: "Bedroom Closet",
+      price: "120$",
+      image: "./assets/indoor/bedroom closet 1.PNG",
+      shortDescription: "Bedroom Closet",
+      description: " Two Door Bedroom Closet"
+    },
+
+    {
+      title: "Bedroom Closet",
+      price: "180$",
+      image: "./assets/indoor/bedroom closet 2.PNG",
+      shortDescription: "Bedroom Closet",
+      description: "Three Door Bedroom Closet"
+    },
+
+    {
+      title: "Bedroom Closet",
+      price: "220$",
+      image: "./assets/indoor/bedroom closet 3.PNG",
+      shortDescription: "Bedroom Closet",
+      description: "Four Door Bedroom Closet"
+    },
+
+    {
       title: "Shoe Closet",
       price: "110$",
       image: "./assets/indoor/closet 1.JPEG",
       shortDescription: "Shoe Closet",
       description: "Shoe ClosetShoe, 1-120cmX30cm Shoe Closet, Available in 3 colors"
+    },
+
+    {
+      title: "Whole Kitchen",
+      price: "Depends on Size",
+      image: "./assets/indoor/kitchen 1.PNG",
+      shortDescription: "All Sizes Avilable Upon Request, Customizable Colors",
+      description: "All Sizes Avilable Upon Request, Customizable Colors"
     },
 
     {
@@ -247,6 +367,14 @@ export const indoorItems = [
       image: "./assets/indoor/sofa 2.PNG",
       shortDescription: "Luxurious Single Purple Sofa",
       description: "Luxurious Single Purple Sofa, 1-160cmX80cm Sofa"
+    },
+
+    {
+      title: "Chaiselong",
+      price: "350$",
+      image: "./assets/indoor/chaiselong 1.PNG",
+      shortDescription: "Luxurious Chaiselong",
+      description: "Luxurious Two Seat Chaiselong"
     },
 
     {

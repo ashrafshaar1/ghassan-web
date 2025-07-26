@@ -9,21 +9,24 @@ const OffersSection = () => {
     {
       id: 1,
       title: "Luxury Set",
-      price: "1999$ (Was 2450$)",
+      price: "1999$",
+      old: "2450$",
       image: "../assets/Offers/offer 1.JPEG",
       description: "Master bedroom with a drossoire and a commode, Salon, dining table with 6 chairs."
     },
     {
       id: 2,
       title: "Classy Package",
-      price: "999$ (Was 1380$)",
+      price: "999$",
+      old: "1380$",
       image: "../assets/Offers/offer 2.JPEG",
       description: "Bedroom with drossoire and a closet, Living room, Table set, Center table and Mattress."
     },
     {
       id: 3,
       title: "Booming Bundle",
-      price: "399$ (Was 715$)",
+      price: "399$",
+      old: "715$",
       image: "../assets/Offers/offer 3.JPEG",
       description: "4-seats outdoor ratin dining set with a table and costumisable fabric color, Single seats outdoor swing, Wicker roking chair, 6 Ratin chairs and a foldable table."
     }
@@ -83,7 +86,7 @@ const OffersSection = () => {
             </div>
             <div className="card-content">
               <h3>{offer.title}</h3>
-              <p className="price">{offer.price}</p>
+              <p className="price">{offer.price} <span style={{textDecoration: 'line-through'}}>{offer.old}</span></p>
               <button className="view-details-btn">View Details</button>
             </div>
           </div>
